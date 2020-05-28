@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<VBox minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <stylesheets>
+      <URL value="@/css/style.css"/>
+   </stylesheets>
+   <TextArea fx:id="textArea" editable="false" prefHeight="700"/>
+   <HBox alignment="BOTTOM_LEFT">
+         <TextField fx:id="textField" prefWidth="455" />
+         <Button fx:id="btSend" mnemonicParsing="false" onAction="#click" text="Send" />
+   </HBox>
+</VBox>
